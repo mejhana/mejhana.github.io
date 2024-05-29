@@ -1,13 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Meghana Rao Somepalli
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Meghana
+last_name: Rao Somepalli
 
 # Status emoji
 status:
@@ -20,92 +17,93 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
+# organizations:
+#   - name: OpenAI
+#     url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:meghanarao.99@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/mejhana/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/meghana99
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=Yy9jsywAAAAJ&hl=en
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Generative AI
+  - Computer Vision
+  - 3D Modelling
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
+  - area: MSc Computer Graphics, Vision and Imaging
+    institution: University College London
+    date_start: 2022-09-01
     date_end: 2020-12-31
-    summary: |
+    summary: 
+      Merit 
+
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BTech Computer Science Engineering
+    institution: Amrita Vishwa Vidyapeetham
+    date_start: 2018-05-01
+    date_end: 2022-06-01
     summary: |
-      GPA: 3.4/4.0
+      GPA: Distinction
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Machine Learning Engineer 
+    company_name: MeetImmi (side start-up)
     company_url: ''
+    company_logo: ''
+    date_start: 2024-01-01
+    date_end: ''
+    summary: |
+      Developing a production-ready retrieval-augmented generation (RAG) based conversational AI assistant that provides personalised immigration advice to empower people to live and work wherever they want. 
+      Responsibilities include:
+      - Creating a RAG pipeline using langchain and ingesing the chunked and parsed data scraped from official government websites
+      - Enabling personalized advice using user database
+      - Establishing a evaluation pipeline
+
+  - position: Data Scientist
+    company_name: Bosch
+    company_url: 'https://www.bosch.in/'
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: 2022-06-01
+    summary: |
+      Developed a data pipeline for predicting battery drainage in electric vehicles and analysing influential features to analyse the necessary sensors for data collection.
+      Responsibilities include:
+      - Cleaned and pre-processed the raw data and implemented two data architectures: segmenting and bucketting models 
+
+  - position: Research Scientist
+    company_name: ISRO (Indian Space Research Organisation)
+    company_url: 'https://www.isro.gov.in/'
     company_logo: ''
     date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_end: 2021-03-01
     summary: |
+      Analysed and accounted for the systematic error in centroiding algorithms like Centre of Mass (CoM) to increase the accuracy of finding the centre of star images. 
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Worked on error-predicting algorithms like the Extreme Learning Machine with Bat algorithm as an optimiser (BA-ELM), 1D Gaussian Fitting, and Fast Gaussian Fitting; BA-ELM algorithm increased the accuracy of the CoM algorithm by 40%.
+      - Analysed image smoothing algorithms like Savitzky-Golay Filters and their effect on CoM accuracy.
+      - Evaluated star tracking algorithms to predict the centroid locations for faster extraction of stars from an image.
+      
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -144,43 +142,53 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: Telugu
     percent: 75
-  - name: Portuguese
+  - name: Hindi
     percent: 25
+  - name: Kannada
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  - title: Generative AI with Diffusion Models
+    url: https://learn.nvidia.com/certificates?id=a_VSYfk8ReKvK7eiIA1xmQ
+    date: '2024-05-25'
+    awarder: Nvidia
+    # icon: Nvidia
+    # summary: |
+      
+  - title: LangChain for LLM Application Development
+    url: https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development
+    date: '2024-02-01'
+    awarder: DeepLearning.AI
+    # icon: edx
+    # summary: |
+ 
+  - title: 'LangChain Chat with Your Data'
+    url: https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/
     certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    date: '2024-01-21'
+    awarder: DeepLearning.AI
+    # icon: datacamp
+    # summary: |
+    #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+  - title: 'Deep Learning Specialization'
+    url: https://www.coursera.org/account/accomplishments/specialization/PMKWEPRFKHBT
+    certificate_url: https://www.datacamp.com
+    date: '2021-01-21'
+    awarder: Coursera
+
+  - title: 'Machine Learning '
+    url: https://www.coursera.org/account/accomplishments/verify/U3HZMLEKY9G3
+    certificate_url: https://www.datacamp.com
+    date: '2019-11-21'
+    awarder: Stanford Online
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a software engineer with 4 years of experience in ML, computer vision, and deep generative models. I recently graduated from University College London (UCL) with a Master's degree in Computer Graphics, Vision, and Imaging. I'm working on a conversational AI that provides personalized immigration advice, empowering individuals to live and work wherever they want.
