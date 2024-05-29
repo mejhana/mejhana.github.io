@@ -1,6 +1,7 @@
 ### Generated files by hugo
 /public/
 /resources/
+/_vendor/
 hugo_stats.json
 
 # https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417
