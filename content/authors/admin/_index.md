@@ -47,13 +47,16 @@ education:
     institution: University College London
     date_start: 2022-09-01
     date_end: 2020-12-31
-    summary: 
+    summary: |
       Merit 
 
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Courses: Machine Vision, Computer Graphics, Image Processing, Machine Learning in Visual Computing, Acquisition and Processing of 3D Geometry, Inverse Problems in Imaging, Computational Modelling for Biomedical Imaging and Machine Learning in Medical Imaging
+
+      Thesis Project: Q-MoGraph—a program that uses the motions generated from a generative model like VQ-VAE sampled using a transformer to generate new motions that follow a user-defined path while performing specific actions.
+
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://github.com/mejhana/Q-MoGraph'
 
   - area: BTech Computer Science Engineering
     institution: Amrita Vishwa Vidyapeetham
@@ -61,11 +64,10 @@ education:
     date_end: 2022-06-01
     summary: |
       GPA: Distinction
+
+      Courses: Machine Learning, Deep Learning, Natural Language Processing
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis Project: a program that performs live facial motion capture using a single camera to calculate facial motion tracking data that drove the weights of blendshapes of a 3D face model.
 work:
   - position: Machine Learning Engineer 
     company_name: MeetImmi (side start-up)
@@ -107,46 +109,47 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 90
+#         icon: code-bracket
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: circle-stack
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 60
+#         icon: person-simple-walk
+#       - name: Cats
+#         description: ''
+#         percent: 100
+#         icon: cat
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera
 
 languages:
   - name: English
     percent: 100
   - name: Telugu
-    percent: 75
+    percent: 85
   - name: Hindi
-    percent: 25
+    percent: 75
   - name: Kannada
+    percent: 75
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -154,7 +157,8 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Generative AI with Diffusion Models
-    url: https://learn.nvidia.com/certificates?id=a_VSYfk8ReKvK7eiIA1xmQ
+    url: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-14+V1
+    certificate_url: https://learn.nvidia.com/certificates?id=a_VSYfk8ReKvK7eiIA1xmQ
     date: '2024-05-25'
     awarder: Nvidia
     # icon: Nvidia
@@ -169,7 +173,6 @@ awards:
  
   - title: 'LangChain Chat with Your Data'
     url: https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/
-    certificate_url: https://www.datacamp.com
     date: '2024-01-21'
     awarder: DeepLearning.AI
     # icon: datacamp
@@ -177,14 +180,14 @@ awards:
     #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 
   - title: 'Deep Learning Specialization'
-    url: https://www.coursera.org/account/accomplishments/specialization/PMKWEPRFKHBT
-    certificate_url: https://www.datacamp.com
+    url: https://www.coursera.org/specializations/deep-learning
+    certificate_url: https://www.coursera.org/account/accomplishments/specialization/PMKWEPRFKHBT
     date: '2021-01-21'
     awarder: Coursera
 
-  - title: 'Machine Learning '
-    url: https://www.coursera.org/account/accomplishments/verify/U3HZMLEKY9G3
-    certificate_url: https://www.datacamp.com
+  - title: 'Machine Learning'
+    url: https://www.coursera.org/learn/machine-learning
+    certificate_url: https://www.coursera.org/account/accomplishments/verify/U3HZMLEKY9G3
     date: '2019-11-21'
     awarder: Stanford Online
 ---
