@@ -1,0 +1,10 @@
+### Generated files by hugo
+/public/
+/resources/
+hugo_stats.json
+
+# https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417
+.hugo_build.lock
+
+### Don't gitignore the below files:
+# go.sum
