@@ -8,23 +8,23 @@ appearance:
   mode: dark
   color: blue
 
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+# # SEO
+# marketing:
+#   seo:
+#     site_type: Person
+#     local_business_type: ''
+#     org_name: ''
+#     description: ''
+#     twitter: ''
+#   analytics:
+#     google_analytics: ''
+#     baidu_tongji: ''
+#     plausible: ''
+#     fathom: ''
+#     pirsch: ''
+#   verification:
+#     google: ''
+#     baidu: ''
 
 # Site header
 header:
@@ -44,7 +44,7 @@ footer:
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization

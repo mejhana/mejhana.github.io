@@ -1,6 +1,11 @@
 ---
 title: Surface Registration
 date: 2023-01-10
+share: False
+image:
+  placement: 1
+  focal_point: 'Center'
+  preview_only: true
 tags:
   - Graphics
 ---

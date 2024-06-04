@@ -6,9 +6,9 @@ title: Meghana Rao Somepalli
 first_name: Meghana
 last_name: Rao Somepalli
 
-# Status emoji
-status:
-  icon: ☕️
+# # Status emoji
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -36,6 +36,9 @@ profiles:
     url: https://www.linkedin.com/in/meghana99
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=Yy9jsywAAAAJ&hl=en
+  # - icon: assets/media/icons/artstation
+  #   url: https://www.artstation.com/mejhana
+
 
 interests:
   - Generative AI

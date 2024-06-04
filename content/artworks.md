@@ -1,5 +1,5 @@
 ---
-title: 'projects'
+title: 'artworks'
 type: landing
 
 design:
@@ -10,13 +10,14 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
+      title: Selected Artworks
       text: Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
-          - project
+          - artwork
     design:
       view: article-grid
       fill_image: true
-      columns: 3
+      columns: 1
 ---
+
