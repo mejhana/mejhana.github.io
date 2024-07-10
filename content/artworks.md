@@ -11,7 +11,7 @@ sections:
   - block: collection
     content:
       title: Selected Artworks
-      text: Here are a selection of projects that I have worked on over the years.
+      text: Here are a selection of artworks that I have worked on over the years.
       filters:
         folders:
           - artwork

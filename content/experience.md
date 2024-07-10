@@ -27,10 +27,4 @@ sections:
     content:
       title: Courses
       username: admin
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
-    # design:
-    #   show_skill_percentage: false
 ---
