@@ -73,8 +73,8 @@ education:
       
 work:
   - position: Machine Learning Engineer 
-    company_name: MeetImmi (side start-up)
-    company_url: ''
+    company_name: Polaron.ai
+    company_url: 'https://polaron.ai/'
     company_logo: ''
     date_start: 2024-01-01
     date_end: ''
@@ -84,6 +84,15 @@ work:
       - Creating a RAG pipeline using langchain and ingesing the chunked and parsed data scraped from official government websites
       - Enabling personalized advice using user database
       - Establishing a evaluation pipeline
+
+  - position: Machine Learning Engineer 
+    company_name: MeetImmi (side start-up)
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-08-19
+    date_end: ''
+    summary: |
+      My responsibilities involve improving the efficiency and reliability of current machine learning models, establishing benchmarking and logging systems, and optimising hyperparameters.
 
   - position: Data Scientist
     company_name: Bosch
