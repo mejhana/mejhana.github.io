@@ -79,11 +79,7 @@ work:
     date_start: 2024-01-01
     date_end: ''
     summary: |
-      Developing a production-ready retrieval-augmented generation (RAG) based conversational AI assistant that provides personalised immigration advice to empower people to live and work wherever they want. 
-      Responsibilities include:
-      - Creating a RAG pipeline using langchain and ingesing the chunked and parsed data scraped from official government websites
-      - Enabling personalized advice using user database
-      - Establishing a evaluation pipeline
+      Improved the efficiency and reliability of current machine learning models, establishing benchmarking and logging systems, and optimising hyperparameters. Currently working on a new conditional GAN architecture to generate 3D volumes of microstructures from 2D slices. 
 
   - position: Machine Learning Engineer 
     company_name: MeetImmi (side start-up)
@@ -92,7 +88,11 @@ work:
     date_start: 2024-08-19
     date_end: ''
     summary: |
-      My responsibilities involve improving the efficiency and reliability of current machine learning models, establishing benchmarking and logging systems, and optimising hyperparameters.
+      Developing a production-ready retrieval-augmented generation (RAG) based conversational AI assistant that provides personalised immigration advice to empower people to live and work wherever they want. 
+      Responsibilities include:
+      - Creating a RAG pipeline using langchain and ingesing the chunked and parsed data scraped from official government websites
+      - Enabling personalized advice using user database
+      - Establishing a evaluation pipeline
 
   - position: Data Scientist
     company_name: Bosch
