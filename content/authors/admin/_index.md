@@ -20,7 +20,7 @@ highlight_name: true
 role: Machine Learning Engineer
 
 organizations:
-  - name: Meet Immi
+  - name: Polaron
 
 # Social network links
 profiles:
@@ -151,4 +151,4 @@ awards:
 
 ## About Me
 
-I am a software engineer with 4 years of experience in ML, computer vision, and deep generative models. I recently graduated from University College London (UCL) with a Master's degree in Computer Graphics, Vision, and Imaging. I'm working on a conversational AI that provides personalized immigration advice, empowering individuals to live and work wherever they want.
+I am a machine learning engineer at polaron.ai and I recently graduated from University College London (UCL) with a Master's degree in Computer Graphics, Vision, and Imaging.
