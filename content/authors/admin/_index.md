@@ -51,7 +51,7 @@ education:
 
       Courses: Machine Vision, Computer Graphics, Image Processing, Machine Learning in Visual Computing, Acquisition and Processing of 3D Geometry, Inverse Problems in Imaging, Computational Modelling for Biomedical Imaging and Machine Learning in Medical Imaging
 
-      Thesis Project: Q-MoGraph—a program that uses the motions generated from a generative model like VQ-VAE sampled using a transformer to generate new motions that follow a user-defined path while performing specific actions.
+      Thesis Project: Q-MoGraph—Generated a motion sequence of a 3D character following a user-defined path while performing specific actions like "walking" or "ballet" using the motion graph algorithm by Kovar et al. (2002) and a T2M-GPT (a multi-modal text-to-motion model; vector qualitised-variational autoencoder (VQ-VAE) mapped to a transformer) model by Zhang et al. (2023)
 
     button:
       text: 'Read Thesis'
@@ -79,7 +79,7 @@ work:
     date_start: 2024-01-01
     date_end: ''
     summary: |
-      Improved the efficiency and reliability of current machine learning models, establishing benchmarking and logging systems, and optimising hyperparameters. Currently working on a new conditional GAN architecture to generate 3D volumes of microstructures from 2D slices. 
+      Improved on Polaron’s dimension-expanding GAN architecture for homogeneous microstructure generation and developed advanced analytical tools for microstructure interpretation, and contributed to the team awarded the Manchester Prize.
 
   - position: Machine Learning Engineer 
     company_name: MeetImmi (side start-up)
@@ -88,11 +88,7 @@ work:
     date_start: 2024-08-19
     date_end: ''
     summary: |
-      Developing a production-ready retrieval-augmented generation (RAG) based conversational AI assistant that provides personalised immigration advice to empower people to live and work wherever they want. 
-      Responsibilities include:
-      - Creating a RAG pipeline using langchain and ingesing the chunked and parsed data scraped from official government websites
-      - Enabling personalized advice using user database
-      - Establishing a evaluation pipeline
+      Developed a production-ready retrieval-augmented generation (RAG) based conversational AI assistant that provides tailored immigration advice to empower people to live and work wherever they want.
 
   - position: Data Scientist
     company_name: Bosch
@@ -100,9 +96,7 @@ work:
     date_start: 2022-01-01
     date_end: 2022-06-01
     summary: |
-      Developed a data pipeline for predicting battery drainage in electric vehicles and analysing influential features to analyse the necessary sensors for data collection.
-      Responsibilities include:
-      - Cleaned and pre-processed the raw data and implemented two data architectures: segmenting and bucketting models 
+      Developed a data pipeline for predicting battery drainage in electric vehicles and analysing influential features from sensors to streamline data collection. Trained regression models using sensor data (altitude, temperature, terrain).
 
   - position: Research Scientist
     company_name: ISRO (Indian Space Research Organisation)
@@ -110,11 +104,7 @@ work:
     date_start: 2021-01-01
     date_end: 2021-03-01
     summary: |
-      Analysed and accounted for the systematic error in centroiding algorithms like Centre of Mass (CoM) to increase the accuracy of finding the centre of star images. 
-      Responsibilities include:
-      - Worked on error-predicting algorithms like the Extreme Learning Machine with Bat algorithm as an optimiser (BA-ELM), 1D Gaussian Fitting, and Fast Gaussian Fitting; BA-ELM algorithm increased the accuracy of the CoM algorithm by 40%
-      - Analysed image smoothing algorithms like Savitzky-Golay Filters and their effect on CoM accuracy
-      - Evaluated star tracking algorithms to predict the centroid locations for faster extraction of stars from an image
+      Developed systematic error prediction algorithms such as extreme learning machine with the nature-inspired bat algorithm to increase the accuracy of the centre of mass (CoM) algorithm by 40%. Investigated the impact of smoothing filters (Savitzky-Golay) on CoM accuracy.
       
 awards:
   - title: Generative AI with Diffusion Models
